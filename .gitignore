@@ -3,3 +3,8 @@
 ################################################################################
 
 *.dll
+*.lock
+/.vs/PracticalSignalR/v16/Server/sqlite3
+*.dtbcache
+/PracticalSignalR/obj
+/PracticalSignalR/bin/Debug/netcoreapp2.2

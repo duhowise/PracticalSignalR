@@ -1,0 +1,31 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>index</title>
+    
+</head>
+<body>
+<div>
+    <input type="button" id="JoinGroup" value="Join Private Group" />
+</div>
+<textarea name="message" id="message"></textarea>
+<select id="group">
+    <option value="All">EveryOne</option>
+    <option value="Myself">Myself</option>
+    <option value="PrivateGroup">Private Group</option>
+</select>
+<input type="button" name="sendButton" value="Send Message" id="sendButton"/>
+<div id="messages">
+
+</div>
+<script src="js/aspnet-signalr/signalr.js"></script>
+<script src="js/message.js"></script>
+</body>
+</html>
